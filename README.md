@@ -55,6 +55,22 @@ AppDress.tint(new GrayColor());
 // AppDress.tint(null);
 ```
 
+### 3. Exclude view when using night mode
+
+```java
+public class MainActivity extends AppCompatActivity implements NightColorFilter {
+
+    ......
+    ......
+    ......
+
+    @Override
+    public boolean excludeView(@NonNull View view) {
+        return view instanceof ImageView;
+    }
+}
+```
+
 # License
 
 GNU General Public License v3.0. See the [LICENSE](https://github.com/lenebf/AppDress/blob/master/LICENSE) file for details.
