@@ -1,6 +1,6 @@
 # AppDress
 
----
+
 
 AppDress is a android library that change app ui color with sample code.
 
@@ -27,8 +27,6 @@ default: {
 ![eye_protect](./image/eye_protect.png)![night](./image/night2.png)
 
 # API
-
----
 
 ### 1. SDK Init
 
@@ -60,7 +58,5 @@ AppDress.tint(new GrayColor());
 ```
 
 # License
-
----
 
 GNU General Public License v3.0. See the [LICENSE](https://github.com/lenebf/AppDress/blob/master/LICENSE) file for details.
