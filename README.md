@@ -1,8 +1,6 @@
 # AppDress
 
-
-
-AppDress is a android library that change app ui color with sample code.
+AppDress is a android library that change app ui color with sample code. coextensive with [App 黑白化实现探索，有一行代码实现的方案吗？_Hongyang-CSDN博客](https://blog.csdn.net/lmj623565791/article/details/105319752)
 
 ```java
 case R.id.rb_gray: {
