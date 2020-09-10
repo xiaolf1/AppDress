@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
-import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +16,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
+import com.lenebf.android.app_dress.DressUtil;
 import com.lenebf.android.app_dress.NightColorFilter;
 
 public class MainActivity extends AppCompatActivity implements NightColorFilter {
@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity implements NightColorFilter 
 
     @Override
     public boolean excludeView(@NonNull View view) {
-        return view instanceof ImageView;
+        return R.id.imageView2 == view.getId() || DressUtil.isStatusBrBackground(view)
+                || DressUtil.isNavigationBarBackground(view);
     }
 }

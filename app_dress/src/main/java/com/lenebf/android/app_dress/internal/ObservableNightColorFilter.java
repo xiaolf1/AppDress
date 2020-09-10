@@ -1,4 +1,4 @@
-package com.lenebf.android.app_dress;
+package com.lenebf.android.app_dress.internal;
 
 import android.app.Activity;
 import android.graphics.ColorMatrix;
@@ -10,6 +10,8 @@ import android.view.Window;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.lenebf.android.app_dress.NightColorFilter;
 
 import java.lang.ref.WeakReference;
 
