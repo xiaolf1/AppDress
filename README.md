@@ -21,8 +21,8 @@ default: {
 }
 ```
 
-![gray](./image/normal.png)![gray](./image/gray.png)
-![eye_protect](./image/eye_protect.png)![night](./image/night2.png)
+![gray](./image/normal-1.png)![gray](./image/gray-1.png)
+![eye_protect](./image/eye_protect-1.png)![night](./image/night2-1.png)
 
 # API
 
