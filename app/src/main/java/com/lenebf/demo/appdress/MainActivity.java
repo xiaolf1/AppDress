@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity implements NightColorFilter 
 
     @Override
     public boolean excludeView(@NonNull View view) {
-        return R.id.imageView2 == view.getId() || DressUtil.isStatusBrBackground(view)
-                || DressUtil.isNavigationBarBackground(view);
+        return DressUtil.isStatusBrBackground(view) || DressUtil.isNavigationBarBackground(view);
     }
 }

@@ -4,19 +4,26 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.lenebf.demo.appdress.R;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class HomeViewModel extends ViewModel {
 
-    private MutableLiveData<String> mText;
+    private MutableLiveData<List<ItemData>> itemData;
 
     public HomeViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("Seriously charming, meet beautiful Barb, our favourite tea dress shape in " +
-                "a soft, sage green spotty seersucker fabric. A nostalgic 1940s-inspired frock with " +
-                "a button-through front, pretty pleats, polka dots and a uber-flattering waist, " +
-                "finished with a feminine tie belt. ");
+        List<ItemData> itemDataList = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            itemDataList.add(new ItemData(R.drawable.dress,
+                    "AppDress is a android library that change app ui color with sample code."));
+        }
+        itemData = new MutableLiveData<>();
+        itemData.setValue(itemDataList);
     }
 
-    public LiveData<String> getText() {
-        return mText;
+    public LiveData<List<ItemData>> getItemDatas() {
+        return itemData;
     }
 }

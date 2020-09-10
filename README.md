@@ -58,6 +58,7 @@ AppDress.tint(new GrayColor());
 ### 3. Exclude view when using night mode
 
 ```java
+// For Activity
 public class MainActivity extends AppCompatActivity implements NightColorFilter {
 
     ......
@@ -69,6 +70,11 @@ public class MainActivity extends AppCompatActivity implements NightColorFilter 
         return view instanceof ImageView;
     }
 }
+```
+
+```java
+// For single view
+NightColor.revert(view)
 ```
 
 # License
