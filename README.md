@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/lenebf/AppDress.svg)](https://jitpack.io/#lenebf/AppDress)
+
 # AppDress
 
 AppDress is a android library that change app ui color with sample code. coextensive with [App 黑白化实现探索，有一行代码实现的方案吗？_Hongyang-CSDN博客](https://blog.csdn.net/lmj623565791/article/details/105319752)
@@ -26,7 +28,28 @@ default: {
 ![gray](./image/normal-1.png)![gray](./image/gray-2.png)
 ![eye_protect](./image/eye_protect-1.png)![night](./image/night2-1.png)
 
-# API
+# Download
+
+**Step 1.** Add it in your root build.gradle at the end of repositories:
+
+```groovy
+allprojects {
+    repositories {
+	    ...
+		maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+**Step 2.** Add the dependency
+
+```groovy
+dependencies {
+    implementation 'com.github.lenebf:AppDress:Tag'
+}
+```
+
+# How to use
 
 ### 1. SDK Init
 
