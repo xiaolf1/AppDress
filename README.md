@@ -1,6 +1,6 @@
-[![](https://jitpack.io/v/lenebf/AppDress.svg)](https://jitpack.io/#lenebf/AppDress)
-
 # AppDress
+
+[![](https://jitpack.io/v/lenebf/AppDress.svg)](https://jitpack.io/#lenebf/AppDress)
 
 AppDress is a android library that change app ui color with sample code. coextensive with [App 黑白化实现探索，有一行代码实现的方案吗？_Hongyang-CSDN博客](https://blog.csdn.net/lmj623565791/article/details/105319752)
 
@@ -51,7 +51,7 @@ dependencies {
 
 # How to use
 
-### 1. SDK Init
+**1. SDK Init**
 
 ```java
 public class DemoApp extends Application {
@@ -64,7 +64,7 @@ public class DemoApp extends Application {
 }
 ```
 
-### 2. Tint the dress
+**2. Tint the dress**
 
 ```java
 // Gray mode
@@ -80,7 +80,7 @@ AppDress.tint(new GrayColor());
 // AppDress.tint(null);
 ```
 
-### 3. Exclude view when using night mode
+**3. Exclude view when using night mode**
 
 ```java
 // For Activity
