@@ -2,9 +2,9 @@
 
 [![](https://jitpack.io/v/lenebf/AppDress.svg)](https://jitpack.io/#lenebf/AppDress)
 
-AppDress is a android library that change app ui color with sample code. coextensive with [App 黑白化实现探索，有一行代码实现的方案吗？_Hongyang-CSDN博客](https://blog.csdn.net/lmj623565791/article/details/105319752)
+AppDress is a android library that change app ui color with simple code. coextensive with [App 黑白化实现探索，有一行代码实现的方案吗？_Hongyang-CSDN博客](https://blog.csdn.net/lmj623565791/article/details/105319752)
 
-**Implementation documentation**：[https://www.yuque.com/lenebf/fl1svo/sagoxt](https://www.yuque.com/lenebf/fl1svo/sagoxt)
+**Implementation documentation**：[给App装上漂亮的裙子](https://juejin.im/post/6870900334714159111)
 
 ```java
 case R.id.rb_gray: {
